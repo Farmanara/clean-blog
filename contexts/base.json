@@ -1,0 +1,54 @@
+{
+    "head":{
+        "meta":{
+            "description":"",
+            "author":""
+        },
+        "title":"Clean Blog - Start Bootstrap Theme"
+        
+        },
+        "nav":{
+            "id":"mainNav",
+            "brand" :{
+                "href":"index.html",
+                "text":"Start Bootstrap"
+            },
+            "btn_text":"Menu",
+            "btn_icon":"fas fa-bars",
+            "items":[
+                {
+                    "href":"index.html",
+                    "text":"Home"
+                },
+                {
+                    "href":"about.html",
+                    "text":"About"
+                },
+                {
+                    "href":"post.html",
+                    "text":"Sample Post"
+                },
+                {
+                    "href":"contact.html",
+                    "text":"Contact"
+                }
+            ]
+        },
+        "footer":{
+            "socials":[
+                {
+                    "href":"#",
+                    "icon":"fab fa-twitter fa-stack-1x fa-inverse"
+                },
+                {
+                    "href":"#",
+                    "icon":"fab fa-facebook-f fa-stack-1x fa-inverse"
+                },
+                {
+                    "href":"#",
+                    "icon":"fab fa-github fa-stack-1x fa-inverse"
+                }
+            ],
+            "copyright":"Copyright © Your Website 2020"
+        }
+}

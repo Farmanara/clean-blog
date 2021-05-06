@@ -1,0 +1,27 @@
+{
+    "static_paths": ["static"],
+    "template_paths": ["templates"],
+    "contexts_path": "contexts",
+    "pages": [
+      {
+        "name": "Home page",
+        "contexts": ["context.json"],
+        "template": "clean-blog_template/index.html"
+      },
+      {
+        "name": "About",
+        "contexts": ["about.json"],
+        "template": "clean-blog_template/about.html"
+      },
+      {
+        "name": "Post",
+        "contexts": ["post.json"],
+        "template": "clean-blog_template/post.html"
+      },
+      {
+        "name": "Contact",
+        "contexts": ["contact.json"],
+        "template": "clean-blog_template/contact.html"
+      }
+    ]
+    }
