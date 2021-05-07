@@ -5,7 +5,6 @@
             "content": {
                 "bg_img": "clean-blog_template/img/home-bg.jpg",
                 "div_class": "site-heading",
-                "heading_class": "",
                 "heading_text": "Clean Blog",
                 "subheadin_class": "subheading",
                 "subheading_text": "A Blog Theme by Start Bootstrap"
