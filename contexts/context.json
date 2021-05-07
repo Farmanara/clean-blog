@@ -4,8 +4,8 @@
     "sections":[{
         "file":"clean-blog_template/sections/header.html",
          "content":{
-             "bg_img":"clean-blog_template/img/home-bg.jpg",
-             
+             "bg_img":"clean-blog_template/img/home-bg.jpg"
+
          }
 
     }]
