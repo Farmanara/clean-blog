@@ -11,7 +11,7 @@
             }
         },
         {
-            "file": "clean-blog_template/sections/content_about.html",
+            "file": "clean-blog_template/sections/content_contact.html",
             "content": {
                 "form": {
                     "title": "Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!",
