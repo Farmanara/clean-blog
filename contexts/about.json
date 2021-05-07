@@ -1,0 +1,29 @@
+{
+    "sections": [
+        {
+            "file": "clean-blog_template/sections/header.html",
+            "content": {
+                "bg_img": "clean-blog_template/img/about-bg.jpg",
+                "div_class": "page-heading",
+                "heading_text": "About Me",
+                "subheading_class": "subheading",
+                "subheading_text": "This is what I do."
+            }
+        },
+        {
+            "file":"clean-blog_template/sections/content_about.html",
+            "content":{
+                "list":[
+                    {
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?"
+                    },
+                    {
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!"
+                    },{
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!"
+                    }
+                ]
+            }   
+        }
+    ]
+}

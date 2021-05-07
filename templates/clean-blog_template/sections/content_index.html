@@ -1,0 +1,35 @@
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+    {%for review in section.content.reviews%}
+        <div class="post-preview">
+          <a href="{{review.href}}">
+            <h2 class="post-title">
+              {{review.title}}
+            </h2>
+            {%if review.subtitle%}
+            <h3 class="post-subtitle">
+              {{review.subtitle}}
+            </h3>
+            {%endif%}
+          </a>
+          <p class="post-meta">{{review.text}}
+            <a href="{{review.anchor}}">{{review.author}}</a>
+            {{review.date}}</p>
+        </div>
+        <hr>
+    {%endfor%}
+
+      
+    
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="{{section.pager.btn}}" href="{{section.pager.href}}">{{section.pager.text}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>

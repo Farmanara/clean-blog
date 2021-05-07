@@ -1,12 +1,62 @@
 {
-    
-    
-    "sections":[{
-        "file":"clean-blog_template/sections/header.html",
-         "content":{
-             "bg_img":"clean-blog_template/img/home-bg.jpg"
-
-         }
-
-    }]
+    "sections": [
+        {
+            "file": "clean-blog_template/sections/header.html",
+            "content": {
+                "bg_img": "clean-blog_template/img/home-bg.jpg",
+                "div_class": "site-heading",
+                "heading_class": "",
+                "heading_text": "Clean Blog",
+                "subheadin_class": "subheading",
+                "subheading_text": "A Blog Theme by Start Bootstrap"
+            }
+        },
+        {
+            "file":"clean-blog_template/sections/content_index.html",
+            "content":{
+                "reviews":[
+                    {
+                        "href":"post.html",
+                        "title":"Man must explore, and this is exploration at its greatest",
+                        "subtitle":"Problems look mighty small from 150 miles up",
+                        "text":"Posted by",
+                        "anchor":"#",
+                        "author":"Start Bootstrap",
+                        "date":"on September 24, 2019"
+                    },
+                    {
+                        "href":"post.html",
+                        "title":"I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.",
+                        "text":"Posted by",
+                        "anchor":"#",
+                        "author":"Start Bootstrap",
+                        "date":"on September 18, 2019"
+                    },
+                    {
+                        "href":"post.html",
+                        "title":"Science has not yet mastered prophecy",
+                        "subtitle":"We predict too much for the next year and yet far too little for the next ten.",
+                        "text":"Posted by",
+                        "anchor":"#",
+                        "author":"Start Bootstrap",
+                        "date":"on August 24, 2019"
+                    },
+                    {
+                        "href":"post.html",
+                        "title":"Failure is not an option",
+                        "subtitle":"Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
+                        "text":"Posted by",
+                        "anchor":"#",
+                        "author":"Start Bootstrap",
+                        "date":"on July 8, 2019"
+                    }
+                ],
+                "pager":{
+                    "btn":"btn btn-primary float-right",
+                    "href":"#",
+                    "text":"Older Posts →"
+                }
+            }
+        }
+    ]
 }

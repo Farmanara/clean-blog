@@ -1,3 +1,70 @@
 {
-    
+    "sections": [
+        {
+            "file": "clean-blog_template/sections/header.html",
+            "content": {
+                "bg_img": "clean-blog_template/img/contact-bg.jpg",
+                "div_class": "page-heading",
+                "heading_text": "Contact Me",
+                "subheading_class": "subheading",
+                "subheading_text": "Have questions? I have answers."
+            }
+        },
+        {
+            "file": "clean-blog_template/sections/content_about.html",
+            "content": {
+                "form": {
+                    "title": "Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!",
+                    "items": [
+                        {
+                            "div_class": "form-group floating-label-form-group controls",
+                            "label": "Name",
+                            "input": {
+                                "type":"text",
+                                "placeholder": "Name",
+                                "id":"name",
+                                "requirement_msg": "Please enter your name."
+
+                            }
+                        },
+                        {
+                            "div_class": "form-group floating-label-form-group controls",
+                            "label": "Email Address",
+                            "input": {
+                                "type":"email",
+                                "placeholder": "Email Address",
+                                "id":"name",
+                                "requirement_msg": "Please enter your email address."
+
+                            }
+                        },
+                        {
+                            "div_class": "form-group col-xs-12 floating-label-form-group controls",
+                            "label": "Phone Number",
+                            "input": {
+                                "type":"tel",
+                                "placeholder": "Phone Number",
+                                "id":"phone",
+                                "requirement_msg": "Please enter your phone number."
+
+                            }
+                        },
+                        {
+                            "div_class": "form-group floating-label-form-group controls",
+                            "label": "Message",
+                          "textarea":{
+                              "placeholder":"Message",
+                              "requirement_msg":"Please enter a message."
+                          }
+                        }
+                        
+                    ],
+                    "submit_btn":{
+                        "class":"btn btn-primary",
+                        "text":"Send"
+                    }
+                }
+            }
+        }
+    ]
 }
