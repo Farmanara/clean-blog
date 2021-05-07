@@ -3,7 +3,7 @@
         {
             "file": "clean-blog_template/sections/header.html",
             "content": {
-                "bg_img": "clean-blog_template/img/home.jpg",
+                "bg_img": "clean-blog_template/img/home-bg.jpg",
                 "div_class": "site-heading",
                 "heading_text": "Clean Blog",
                 "subheading_class": "subheading",
