@@ -6,8 +6,12 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="{{section.content.div_class}}">
-          {%if section.posts%}
-
+          {%if section.content.post%}
+         <h1>{{section.content.heading_text}}</h1>
+            <h2 class="subheading">{{section.content.subheading_text}}</h2>
+            <span class="meta">{{section.content.span.text}}
+              <a href="{{section.content.span.anchor}}">{{section.content.span.author}}</a>
+              {{section.content.span.date}}</span>
           {%else%}
             <h1>{{section.content.heading_text}}</h1>
             <span class="{{section.content.subheading_class}}">{{section.content.subheading_text}}</span>
