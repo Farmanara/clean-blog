@@ -1,32 +1,32 @@
-
-  <!-- Post Content -->
-  <article>
+{%load static%}
+<!-- Post Content -->
+<article>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-        {%for item in section.content.paragraphs%}
-          {%if item.p%}<p>{{item.p}}</p> {%endif%}
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                {%for item in section.content.paragraphs%}
+                {%if item.p%}<p>{{item.p}}</p> {%endif%}
 
-           {%if item.heading%} <h2 class="section-heading">{{item.heading}}</h2> {%endif%}
-          {%if item.quote%}<blockquote class="blockquote">{{item.quote}}</blockquote>{%endif%}
-            {%if item.img%} 
-          <a href="{{item.img.href}}">
-            <img class="img-fluid" src="{%static item.img.src%}" alt="{{item.img.alt}}">
-          </a>
-          <span class="caption text-muted">{{item.img.caption}}</span>
-            
-            {%endif%}
-          {%if item.resources%}
-          <p>
-          {%for resource in item.resources%}
-          {{resource.text}}
-            <a href="{{resource.link}}">{{resource.name}}</a>.</p>
-            {%endfor%}
-          {%endif%}
-          {%endfor%}
+                {%if item.heading%} <h2 class="section-heading">{{item.heading}}</h2> {%endif%}
+                {%if item.quote%}<blockquote class="blockquote">{{item.quote}}</blockquote>{%endif%}
+                {%if item.img%}
+                <a href="{{item.img.href}}">
+                    <img class="img-fluid" src="{%static item.img.src%}" alt="{{item.img.alt}}">
+                </a>
+                <span class="caption text-muted">{{item.img.caption}}</span>
+                {%endif%}
+                {%if item.resources%}
+                <p>
+                    {%for resource in item.resources%}
+                    {{resource.text}}
+                    <a href="{{resource.link}}">{{resource.name}}</a>.
+                </p>
+                {%endfor%}
+                {%endif%}
+                {%endfor%}
+            </div>
         </div>
-      </div>
     </div>
-  </article>
+</article>
 
-  <hr>
+<hr>
