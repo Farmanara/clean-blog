@@ -10,26 +10,26 @@
         "nav":{
             "id":"mainNav",
             "brand" :{
-                "href":"index.html",
+                "href":"/clean-blog/main/page/0/index.html",
                 "text":"Start Bootstrap"
             },
             "btn_text":"Menu",
             "btn_icon":"fas fa-bars",
             "items":[
                 {
-                    "href":"index.html",
+                    "href":"/clean-blog/main/page/0/index.html",
                     "text":"Home"
                 },
                 {
-                    "href":"about.html",
+                    "href":"/clean-blog/main/page/1/about.html",
                     "text":"About"
                 },
                 {
-                    "href":"post.html",
+                    "href":"/clean-blog/main/page/2/post.html",
                     "text":"Sample Post"
                 },
                 {
-                    "href":"contact.html",
+                    "href":"/clean-blog/main/page/3/contact.html",
                     "text":"Contact"
                 }
             ]

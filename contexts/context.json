@@ -16,7 +16,7 @@
             "content":{
                 "reviews":[
                     {
-                        "href":"post.html",
+                        "href":"/clean-blog/main/page/2/post.html",
                         "title":"Man must explore, and this is exploration at its greatest",
                         "subtitle":"Problems look mighty small from 150 miles up",
                         "text":"Posted by",
@@ -25,7 +25,7 @@
                         "date":"on September 24, 2019"
                     },
                     {
-                        "href":"post.html",
+                        "href":"/clean-blog/main/page/2/post.html",
                         "title":"I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.",
                         "text":"Posted by",
                         "anchor":"#",
@@ -33,7 +33,7 @@
                         "date":"on September 18, 2019"
                     },
                     {
-                        "href":"post.html",
+                        "href":"/clean-blog/main/page/2/post.html",
                         "title":"Science has not yet mastered prophecy",
                         "subtitle":"We predict too much for the next year and yet far too little for the next ten.",
                         "text":"Posted by",
@@ -42,7 +42,7 @@
                         "date":"on August 24, 2019"
                     },
                     {
-                        "href":"post.html",
+                        "href":"/clean-blog/main/page/2/post.html",
                         "title":"Failure is not an option",
                         "subtitle":"Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
                         "text":"Posted by",
