@@ -10,17 +10,17 @@
       },
       {
         "name": "About",
-        "contexts": ["about.json"],
+        "contexts": ["base.json","about.json"],
         "template": "clean-blog_template/about.html"
       },
       {
         "name": "Post",
-        "contexts": ["post.json"],
+        "contexts": ["base.json","post.json"],
         "template": "clean-blog_template/post.html"
       },
       {
         "name": "Contact",
-        "contexts": ["contact.json"],
+        "contexts": ["base.json","contact.json"],
         "template": "clean-blog_template/contact.html"
       }
     ]
