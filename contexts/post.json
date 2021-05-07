@@ -6,9 +6,8 @@
                 "post": "True",
                 "bg_img": "clean-blog_template/img/post-bg.jpg",
                 "div_class": "post-heading",
-                "heading_class": "",
                 "heading_text": "Man must explore, and this is exploration at its greatest",
-                "subheading_text": "A Blog Theme by Start Bootstrap",
+                "subheading_text": "Problems look mighty small from 150 miles up",
                 "span": {
                     "text": "Posted by",
                     "anchor": "#",
