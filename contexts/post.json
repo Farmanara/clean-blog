@@ -4,7 +4,7 @@
             "file": "clean-blog_template/sections/header.html",
             "content": {
                 "post": "True",
-                "bg_img": "clean-blog_template/img/post-bg.jpg",
+                "bg_img": "clean-blog_template/img/post-bg-min.jpg",
                 "div_class": "post-heading",
                 "heading_text": "Man must explore, and this is exploration at its greatest",
                 "subheading_text": "Problems look mighty small from 150 miles up",
