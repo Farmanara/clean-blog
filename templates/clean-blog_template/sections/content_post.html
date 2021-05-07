@@ -20,8 +20,9 @@
                     {%for resource in item.resources%}
                     {{resource.text}}
                     <a href="{{resource.link}}">{{resource.name}}</a>.
+                    {%endfor%}
+
                 </p>
-                {%endfor%}
                 {%endif%}
                 {%endfor%}
             </div>
