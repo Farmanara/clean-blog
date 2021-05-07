@@ -1,2 +1,10 @@
 
 
+
+{%extends "clean-blog_template/base.html"%}
+{%load static%}
+{%block content%}
+
+{%for section in sections%} {%include section.file%} {%endfor%}
+
+{%endblock%}
